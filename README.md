@@ -1,4 +1,4 @@
-# lh_rm2024_Sentry
+# lh_rm2026_Sentry
 
 重庆三峡学院 LionHeart 战队哨兵上位机框架。
 
