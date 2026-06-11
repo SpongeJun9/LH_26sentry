@@ -1,0 +1,128 @@
+{
+    "stay":[
+        {
+            "id" : 0,
+            "name" : "stay_here",
+            "weight" : 10,
+            "interrupted": 1,
+            "wayPointID" : [-1],
+            "maxHP" : -1,
+            "if_fight":-1,
+            "if_in_hp":-1,
+            "if_enermy_occupy":-1,
+            "if_sentry_occupy":-1,
+            "cruise_time": -1,
+            "decide_wayPoint" : [-1],
+            "decide_mode" : 0
+        },
+        {
+            "id" : 1,
+            "name" : "stay_hp_point",
+            "weight" : 999,
+            "interrupted": 0,
+            "wayPointID" : [0],
+            "maxHP" : 380,
+            "if_fight":-1,
+            "if_in_hp":-1,
+            "if_enermy_occupy":-1,
+            "if_sentry_occupy":-1,
+            "cruise_time": -1,
+            "decide_wayPoint" : [-1],
+            "decide_mode" : 0
+        },
+        {
+            "id" : 2,
+            "name" : "stay_fight",
+            "weight" : 90,
+            "interrupted": 1,
+            "wayPointID" : [-1],
+            "maxHP" : -1,
+            "if_fight":1,
+            "if_in_hp":-1,
+            "if_enermy_occupy":-1,
+            "if_sentry_occupy":-1,
+            "cruise_time": -1,
+            "decide_wayPoint" : [-1],
+            "decide_mode" : 3
+        },
+        {
+            "id" : 3,
+            "name" : "stay_center",
+            "weight" : 101,
+            "interrupted": 1,
+            "wayPointID" : [1],
+            "maxHP" : -1,
+            "if_fight":-1,
+            "if_in_hp":-1,
+            "if_enermy_occupy":-1,
+            "if_sentry_occupy":-1,
+            "cruise_time": -1,
+            "decide_wayPoint" : [-1],
+            "decide_mode" : 3
+        },
+        {
+            "id" : 4,
+            "name" : "stay_center_fight",
+            "weight" : 151,
+            "interrupted": 1,
+            "wayPointID" : [2],
+            "maxHP" : -1,
+            "if_fight":-1,
+            "if_in_hp":-1,
+            "if_enermy_occupy":1,
+            "if_sentry_occupy":-1,
+            "cruise_time": -1,
+            "decide_wayPoint" : [-1],
+            "decide_mode" : 3
+        }
+    ],
+    "nav":[
+        {
+            "id" : 20,
+            "name" : "nav_center",
+            "weight" : 100,
+            "interrupted": 0,
+            "wayPointID" : [-1],
+            "maxHP" : -1,
+            "if_fight": -1,
+            "if_in_hp":-1,
+            "if_enermy_occupy": 0,
+            "if_sentry_occupy": -1,
+            "cruise_time": -1,
+            "decide_wayPoint" : [1],
+            "decide_mode" : 1
+        },
+        {
+            "id" : 21,
+            "name" : "nav_fight_center",
+            "weight" : 150,
+            "interrupted": 0,
+            "wayPointID" : [-1],
+            "maxHP" : -1,
+            "if_fight": -1,
+            "if_in_hp":-1,
+            "if_enermy_occupy": 1,
+            "if_sentry_occupy": -1,
+            "cruise_time": -1,
+            "decide_wayPoint" : [2],
+            "decide_mode" : 1
+        },
+        {
+            "id" : 22,
+            "name" : "nav_hp_point",
+            "weight" : 909,
+            "interrupted": 0,
+            "wayPointID" : [-1],
+            "maxHP" : 150,
+            "if_fight": -1,
+            "if_in_hp": -1,
+            "if_enermy_occupy":-1,
+            "if_sentry_occupy":-1,
+            "cruise_time": -1,
+            "decide_wayPoint" : [0],
+            "decide_mode" : 4
+        }
+    ],
+    "patrol":[
+    ]
+}

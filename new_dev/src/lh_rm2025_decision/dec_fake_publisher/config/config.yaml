@@ -1,0 +1,20 @@
+# dec_fake_publisher_params.yaml
+/dec_fake_publisher_node:
+  ros__parameters:
+    # 基础控制参数
+    enable_debug: true          # 是否启用调试模式
+    publish_interval: 0.5       # 消息发布间隔(秒)
+    
+    # 游戏状态参数
+    sentry_hp: 80              # 哨兵当前血量 (0-600)
+    game_time: 300              # 游戏剩余时间(秒)
+    
+    # 场地状态参数
+    if_in_hp: 0                 # 是否在回血区域 (0=否, 1=是, 对应RFID位0x00001000)
+    if_sentry_occupy: 0         # 是否己方占领前哨站 (0=否, 1=是, 对应RFID位0x00040000)
+    center_state: 0             # 中心区域状态 (0=未占领, 2=敌方占领)
+    
+    # 视觉参数
+    aim_x: 0.0                  # 目标X坐标 (单位:米)
+    aim_y: 0.0                  # 目标Y坐标 (单位:米)
+    aim_z: 0.0                  # 目标Z坐标 (单位:米)

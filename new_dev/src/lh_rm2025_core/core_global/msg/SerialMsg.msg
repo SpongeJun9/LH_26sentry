@@ -1,0 +1,9 @@
+std_msgs/Header header
+uint16 game_time
+uint16 sentry_hp
+uint8 if_in_hp
+uint8 if_in_center
+uint8 center_state
+float32 aim_x
+float32 aim_y
+float32 aim_z

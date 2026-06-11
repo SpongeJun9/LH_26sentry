@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "id":0,
+            "name": "normal",
+            "if_spin":true,
+            "spin_speed": 3.0,
+            "if_super_cat": true
+        },
+        {
+            "id":1,
+            "name": "fast_running",
+            "if_spin": true,
+            "spin_speed": 3.0,
+            "if_super_cat":true
+        },
+        {
+            "id":2,
+            "name": "spin_walking",
+            "if_spin":true,
+            "spin_speed": 3.0,
+            "if_super_cat":true
+        },
+        {
+            "id":3,
+            "name": "spin_shoot",
+            "if_spin":true,
+            "spin_speed": 3.0,
+            "if_super_cat":true
+        },
+        {
+            "id":4,
+            "name": "escape",
+            "if_spin":true,
+            "spin_speed": 2.5,
+            "if_super_cat":false
+        }    
+    ]
+}

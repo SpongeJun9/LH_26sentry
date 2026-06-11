@@ -1,0 +1,29 @@
+{
+    "data":[
+        {
+            "id" : 0,
+            "name" : "hp_give",
+            "position": {
+                "x": -0.420,
+                "y": -0.045
+
+            }
+        },
+        {
+            "id" : 1,
+            "name" : "center",
+            "position" : {
+                "x": 3.525,
+                "y": 0.744
+            }
+        },
+        {
+            "id" : 2,
+            "name" : "fight_center",
+            "position": {
+                "x": 3.542,
+                "y": -1.111
+            }
+        }
+    ]
+}

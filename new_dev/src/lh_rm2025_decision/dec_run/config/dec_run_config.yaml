@@ -1,0 +1,8 @@
+/dec_run_node:
+  ros__parameters:
+    json_dir: /home/lionheart/new_dev/src/lh_rm2025_decision/dec_run/json/ #json根目录
+    way_point_path: wayPoint/way_point_test.json #路径点文件路径
+    policy_path: policy/policy_test.json  #决策文件路径 !!!!!!!!!!
+    mode_path: mode/mode_test.json #模式文件路径
+    dec_rate: 20  #hz,暂未使用
+
